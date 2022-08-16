@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+    background-color: #0D0D0D;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.justify-center{
+   justify-content: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.align-center{
+    align-items: center;
+}
+.w-full{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.col-4{
+    width: 33%;
+}
+
+.col-8{
+    width: 66%;
+}
+
+.w-boxed{
+    max-width: 1080px;
+    margin: auto;
+}
+
+/* navbar */
+
+.nav-section > .row{
+    min-height: 80px;
+}
+
+.logo{
+    width: 120px;
+    filter: invert(21%) sepia(100%) saturate(7414%) hue-rotate(359deg) brightness(94%) contrast(117%);  
+}
+
+.main-menu > ul{
+    list-style: none;
+    gap: 50px;
+}
+
+.main-menu > ul > li {
+    text-transform: uppercase;
+    font-size: 16px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.main-menu > ul > li:hover {
+    opacity: 1;
+}
+
+.btn{
+    background-color: #ff0000;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.btn:hover{
+    opacity: 1;
+    transition-duration: 0.8s;
+}
+
+/* hero-section */
+
+.hero-section .left-col >img{
+    width: 600px;
+}
+
+.hero-section .right-col >h3{
+    font-size: 24px;
+    color: #ff0000;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.hero-section .right-col >h1{
+    font-size: 56px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+.hero-section .right-col >p{
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    opacity: 0.8;
+}
+
+
+/* service-section */
+.service-section{
+    position: relative;
+    height: auto;
+}
+
+.service-section:before{    
+    content: '';
+    z-index: -1;
+    position: absolute;
+    background-color: #181818;
+    left: 0;
+    height: 100%;
+    width: 50%;
+}
+.service-row{
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 70px 0;
+    justify-content: center;
+}
+
+.service-card{
+    background-color: #1e1e1e;
+    width: 260px;
+    height: 280px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.service-card > img{
+   width: 50px;
+}
+
+.service-card > img[alt="Center"]{
+   filter: invert(1);
+ }
+
+.service-card > h3{
+   margin: 20px 0 0 0;
+    font-size: 22px;
+    font-weight:500;
+ }
+
+ .service-card > p{
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  line-height: 25px;
+ }
+
+ .service-card > .btn{
+    align-self:flex-start;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+    
+ }
+
+ .service-card > .service-btn{
+    color: #ff0000;
+ }
+
+ .service-white-btn{
+    color: white;
+ }
+
+ .achievments {
+    padding-bottom: 70px;
+}
+
+.achievments > .col-1{
+    width:  30%;
+    text-align: center;
+}
+
+.achievments > .col-1 > h1{
+   font-size: 90px;
+   line-height: 0;
+   font-weight: 700;
+   color: #ff0000;
+}
+
+.achievments > .col-1 > h2{
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 10px;
+ }
+
+ .achievments > .col-2{
+    width:  70%;
+    text-align: center;
+}
+
+.col-2 > .flex-container{
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.col-2 > .flex-container > .flex-items{
+    width: 48%;
+    padding: 20px 0;
+    background-color: #1e1e1e;
+}
+
+.col-2 .flex-container > .flex-items > h1{
+   font-size: 42px;
+    font-weight: 600;
+    color: #ff0000;
+    line-height: 10px;
+}
+
+.col-2 .flex-container > .flex-items > h2{
+    font-size: 19px;
+     font-weight: 400;
+     text-transform: capitalize;
+     line-height: 10px;
+ }
+ .featured-projects .project-heading{
+    margin-top: 50px;
+ }
+ .featured-projects .project-heading h1{
+    margin: 0;
+    font-size: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+ }
+
+ .featured-projects .project-heading p{
+    margin-top: 10px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    opacity: 0.8;
+ }
+
+ .projects{
+    flex-wrap: wrap;
+    gap: 80px;
+    margin-top: 50px;
+    justify-content: center;
+    padding: 20px;
+ }
+
+ .projects > .card{
+    max-width: 500px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .projects > .card > img{
+    width: 450px;
+    height: 280px;
+   z-index: 2;
+
+ }
+
+ .projects > .card::before{
+    content: '';
+    position: absolute;
+    width: 110%;
+    top:-40px;
+    height: 360px;
+    background-color: #1e1e1e;
+    z-index: -1;
+ }
+
+ .projects > .card > h2{
+    font-size: 24px;
+    align-self: flex-start;
+    margin-top: 50px;
+ }
+
+ .projects > .card > button{
+    align-self:flex-start;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #ff0000;
+ }
+
+ .call-to-action > .row{
+    margin-top: 80px;
+    background-color: #1e1e1e;
+    padding: 40px 50px;
+ }
+
+ .call-to-action .left-col > h1{
+    font-size: 48px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 60px;
+    margin: 0;
+ }
+
+ .call-to-action .right-col{ 
+   text-align: end;
+ }
+
+
+ /* footer */
+.footer-menu{
+    margin-top: 80px;
+    margin-bottom: 35px;
+}
+ .footer-menu > ul{
+    list-style: none;
+    gap: 50px;
+    text-transform: uppercase;
+ }
+
+ .footer{
+background-color: #181818;
+ }
+
+ .footer-bar{
+height: 80px;
+ }
+
+ .footer-logo{
+    width: 130px;
+    filter: invert(21%) sepia(100%) saturate(7414%) hue-rotate(359deg) brightness(94%) contrast(117%);  
+}
+
+.footer-icon > ul{
+    list-style: none;
+    gap: 50px;
+}
+
+.footer-icon > ul > li > a{
+    color: #fff;
+    font-size: 22px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer-icon > ul > li > a:hover{
+    color: #ff0000;
+}
