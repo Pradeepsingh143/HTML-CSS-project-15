@@ -38,6 +38,10 @@ body{
     margin: auto;
 }
 
+.col-6{
+    width: 50%;
+}
+
 .col-4{
     width: 33%;
 }
@@ -49,6 +53,10 @@ body{
 .w-boxed{
     max-width: 1080px;
     margin: auto;
+}
+
+.plr-20{
+    padding: 0 20px;
 }
 
 /* navbar */
@@ -78,6 +86,10 @@ body{
     opacity: 1;
 }
 
+.mobile-menu{
+    display: none;
+    filter: invert(1);
+}
 .btn{
     background-color: #ff0000;
     border: none;
@@ -96,10 +108,14 @@ body{
 }
 
 /* hero-section */
-
-.hero-section .left-col >img{
-    width: 600px;
+.hero-section > .row {
+    gap: 30px;
+    padding: 30px 20px;
 }
+.hero-section .left-col >img{
+    width: 100%;
+}
+
 
 .hero-section .right-col >h3{
     font-size: 24px;
@@ -143,7 +159,7 @@ body{
 .service-row{
     flex-wrap: wrap;
     gap: 40px;
-    padding: 70px 0;
+    padding: 70px 20px;
     justify-content: center;
 }
 
@@ -232,11 +248,12 @@ body{
 .col-2 > .flex-container{
     text-align: center;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 20px;
 }
 
 .col-2 > .flex-container > .flex-items{
-    width: 48%;
+    width: 45%;
     padding: 20px 0;
     background-color: #1e1e1e;
 }
@@ -252,7 +269,7 @@ body{
     font-size: 19px;
      font-weight: 400;
      text-transform: capitalize;
-     line-height: 10px;
+     line-height: 25px;
  }
  .featured-projects .project-heading{
     margin-top: 50px;

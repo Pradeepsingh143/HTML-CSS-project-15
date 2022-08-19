@@ -1,0 +1,210 @@
+@media only screen and (max-width: 1024px) {
+    .hero-section .right-col >h3{
+        font-size: 22px;
+    }
+    
+    .hero-section .right-col >h1{
+        font-size: 48px;
+    }
+    
+    .hero-section .right-col >p{
+        font-size: 16px;
+        letter-spacing: 1.5px;
+    }
+
+    .call-to-action .left-col > h1{
+        font-size: 42px;
+        line-height: 50px;
+     }
+  }
+  
+  /* lg */
+  @media only screen and (max-width: 900px) {
+    .logo{
+        width: 100px;
+    }
+    .main-menu > ul > li {
+        text-transform: uppercase;
+        font-size: 15px;
+        cursor: pointer;
+        opacity: 0.8;
+    }
+
+    .hero-section .right-col >h3{
+        font-size: 20px;
+    }
+    
+    .hero-section .right-col >h1{
+        font-size: 42px;
+    }
+    .hero-section .right-col >p{
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+
+    .call-to-action .left-col > h1{
+        font-size: 40px;
+     }
+
+  }
+
+  /* md */
+  @media only screen and (max-width: 768px) {
+    .md-flex-col{
+        flex-direction: column;
+    }
+    .md-flex-col-reverse{
+        flex-direction: column-reverse;
+    }
+    .md-col-12{
+        width: 100%;
+    }
+
+    /* navbar */
+    .nav-item{
+        display: none;
+    }
+    .mobile-menu{
+        display: flex;
+    }
+
+    .hero-section .left-col >img{
+        width: 70%;
+    }
+
+    .hero-section .right-col >h3{
+        font-size: 16px;
+    }
+    
+    .hero-section .right-col >h1{
+        font-size: 32px;
+    }
+    .hero-section .right-col >p{
+        font-size: 14px;
+        letter-spacing: 0.5px;
+    }
+
+    .btn{
+        font-size: 15px;
+        padding: 12px 25px;
+        cursor: pointer;
+    }
+
+    /* achievments */
+    .achievments > .col-1 > h1 {
+        font-size: 42px;
+        letter-spacing: 1px;
+        line-height: 0px;
+    }
+    .achievments > .col-1 > h2 {
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        line-height: 30px;
+    }
+
+    .col-2 .flex-container > .flex-items > h1{
+        font-size: 32px;
+         font-weight: 600;
+         color: #ff0000;
+         line-height: 10px;
+     }
+     
+     .col-2 .flex-container > .flex-items > h2{
+         font-size: 16px;
+          font-weight: 400;
+          text-transform: capitalize;
+      }
+    
+      .call-to-action .right-col{ 
+        text-align: center;
+      }
+
+      .call-to-action .left-col > h1{
+        font-size: 36px;
+        line-height: 45px;
+     }
+    
+     .projects > .card{
+        max-width: 400px;
+     }
+    
+     .projects > .card > img{
+        width: 350px;
+     }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .sm-flex-col{
+        flex-direction: column;
+    }
+   
+    .hero-section .right-col >h3{
+        font-size: 16px;
+    }
+    
+    .hero-section .right-col >h1{
+        font-size: 32px;
+    }
+    .hero-section .right-col >p{
+        font-size: 14px;
+        letter-spacing: 0.5px;
+    }
+
+    .service-card{
+        background-color: #1e1e1e;
+        width: 100%;
+        height: 220px;
+    }
+
+    .achievments > .col-1{
+        width:  100%;
+        text-align: center;
+    }
+
+    .achievments > .col-2{
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .col-2 > .flex-container > .flex-items{
+        width: 44%;
+        padding: 20px 0;
+        background-color: #1e1e1e;
+    }
+
+    .call-to-action .left-col > h1{
+        font-size: 32px;
+        line-height: 40px;
+     }
+
+     .footer-menu > ul{
+        gap: 30px;
+     }
+     .footer-menu > ul > li{
+       font-size: 14px;
+     }
+
+     .projects > .card{
+        max-width: 100%
+     }
+    
+     .projects > .card > img{
+        width: 90%;
+        height: 160px;
+     }
+     .projects > .card::before{
+        content: '';
+        position: absolute;
+        width: 110%;
+        top:-40px;
+        height: 340px;
+        background-color: #1e1e1e;
+        z-index: -1;
+     }
+  }
+  
+  @media only screen and (max-width: 320px) {
+
+  }

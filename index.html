@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>project-15</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mobile.css">
   </head>
   <body>
     <!-- navbar -->
     <nav class="container nav-section">
-      <div class="row w-full flex space-between align-center">
+      <div class="row w-full flex space-between align-center plr-20">
         <div class="logo-col">
           <img src="img/Logo.png" alt="logo" class="logo" />
         </div>
@@ -21,16 +22,17 @@
             <li class="nav-item">About</li>
             <li class="nav-item">Contact</li>
             <li class="nav-item">Other Page</li>
+            <img src="img/icons8-menu.svg" alt="menu" class="mobile-menu">
           </ul>
         </div>
       </div>
     </nav>
     <header class="container hero-section">
-      <div class="row w-boxed flex align-center">
-        <div class="left-col col-2">
+      <div class="row w-boxed flex md-flex-col align-center plr-20">
+        <div class="left-col col-6 md-col-12">
           <img src="img/Untitled design (35).png" alt="hero-img" />
         </div>
-        <div class="right-col col-2">
+        <div class="right-col col-6 md-col-12">
           <h3>Hello i'm Arthur</h3>
           <h1>Visual Designer</h1>
           <p>
@@ -44,7 +46,7 @@
     </header>
     <section class="container service-section">
       <div class="row service-row flex w-boxed">
-        <div class="service-card">
+        <div class="service-card plr-20">
           <img src="img/ui-design.png" alt="" />
           <h3>UI Design</h3>
           <p>
@@ -72,12 +74,12 @@
           <button class="btn service-btn">Know More <i class="fas fa-arrow-right"></i></button>
         </div>
       </div>
-      <div class="row achievments align-center flex w-boxed">
-        <div class="col-1">
+      <div class="row achievments align-center plr-20 flex sm-flex-col w-boxed">
+        <div class="col-1 sm-col-12">
           <h1>12</h1>
           <h2>Years Experience</h2>
         </div>
-        <div class="col-2">
+        <div class="col-2 sm-col-12">
           <div class="flex-container flex">
             <div class="flex-items">
               <h1>60+</h1>
@@ -100,8 +102,8 @@
       </div>
     </section>
     <section class="container featured-projects">
-      <div class="row w-boxed">
-        <div class="project-heading flex space-between align-center">
+      <div class="row w-boxed plr-20">
+        <div class="project-heading flex md-flex-col text-center space-between align-center">
           <div>
             <h1>Featured Projects</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
@@ -147,14 +149,14 @@
       </div>
     </section>
     <section class="container call-to-action w-boxed">
-      <div class="row flex align-center space-between">
-        <div class="left-col col-8">
+      <div class="row flex md-flex-col align-center text-center plr-20 space-between">
+        <div class="left-col col-8 md-col-12">
           <h1>Let's work together on your next project</h1>
           <p>
            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quod deleniti rem perferendis minima quae aliquid sit eligendi doloribus hic.
           </p>
         </div>
-        <div class="right-col col-4">
+        <div class="right-col col-4 md-col-12">
           <button class="btn">Contact</button>
         </div>
       </div>
@@ -163,13 +165,13 @@
       <div class="row">
         <div class="footer-menu w-boxed">
           <ul class="nav-items flex justify-center">
-            <li class="nav-item">Home</li>
-            <li class="nav-item">About</li>
-            <li class="nav-item">Project</li>
-            <li class="nav-item">Contact</li>
+            <li class="nav-footer-item">Home</li>
+            <li class="nav-footer-item">About</li>
+            <li class="nav-footer-item">Project</li>
+            <li class="nav-footer-item">Contact</li>
           </ul>
         </div>
-        <div class="footer">
+        <div class="footer plr-20">
         <div class="footer-bar w-boxed flex space-between align-center">
           <div class="footer-logo">
             <img src="img/Logo.png" alt="footer-logo" class="footer-logo" />
