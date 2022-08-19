@@ -59,6 +59,9 @@
     .md-col-12{
         width: 100%;
     }
+    .md-text-center{
+        text-align: center;
+    }
 
     /* navbar */
     .nav-item{
@@ -175,9 +178,15 @@
     }
 
     .call-to-action .left-col > h1{
-        font-size: 32px;
+        font-size: 28px;
         line-height: 40px;
      }
+
+     .call-to-action > .row {
+        margin-top: 80px;
+        background-color: #1e1e1e;
+        padding: 20px 20px;
+    }
 
      .footer-menu > ul{
         gap: 30px;
